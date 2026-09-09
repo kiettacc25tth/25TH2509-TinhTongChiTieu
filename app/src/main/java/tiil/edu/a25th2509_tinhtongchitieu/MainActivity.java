@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         if (ghiChu.isEmpty()) {
             ghiChu = "(không ghi chú)";
         }
-        
+
         tongTien += soTien;
 
         String dong = dinhDangTien.format(soTien) + " đ - " + ghiChu;
